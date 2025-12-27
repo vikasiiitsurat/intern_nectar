@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🛒 Nectar Grocery – Frontend Web App
+A modern grocery shopping web application built using React, Vite, and Tailwind CSS. The project focuses on a clean UI, smooth user experience, and frontend-only authentication flow.
 
-# Run and deploy your AI Studio app
+Features
+Shop & Explore Sections
+Shop: Core grocery products
+Explore: Categories and featured items
+Category Filtering using checkboxes
 
-This contains everything you need to run your app locally.
+👤 Account Section UI
 
-View your app in AI Studio: https://ai.studio/apps/drive/15YEJu5BlTAZZF8-0YI6tF1bjreQFgknP
+Frontend-only Login Flow
+Email-based login UI
+OTP screen (UI-level, no backend) used 1234 for otp for authentication.
 
-## Run Locally
+Loading Spinner
 
-**Prerequisites:**  Node.js
+🧱 Tech Stack
+React (with TypeScript)
+Vite (fast build tool)
+Tailwind CSS (utility-first styling)
+React Router DOM
+Zustand (for state management – if used)
+Node.js (development environment)
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🔐 Authentication (Frontend Only)
+⚠️ This project does not use a backend.
+Login accepts an email
+User is redirected to OTP screen
+OTP is UI-based only (no real verification)
+Authentication state is handled on frontend
+This approach is suitable for UI demos, college projects, and frontend practice.
+
+▶️ How to Run the Project
+1️⃣ Open terminal in project folder
+cd nectar-grocery
+2️⃣ Install dependencies
+npm install
+3️⃣ Start development server
+npm run dev
+4️⃣ Open in browser
+http://localhost:5173
+
