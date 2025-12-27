@@ -142,7 +142,9 @@ export const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
 
   return (
     <div 
-      className="bg-white border border-gray-200 rounded-2xl p-4 flex flex-col justify-between hover:shadow-lg transition-shadow cursor-pointer h-full"
+      //className="bg-white border border-gray-200 rounded-2xl p-4 flex flex-col justify-between hover:shadow-lg transition-shadow cursor-pointer h-full"
+      className="bg-gray-100 border border-gray-200 rounded-2xl p-4 flex flex-col justify-between hover:shadow-lg transition-shadow cursor-pointer h-full"
+
       onClick={() => navigate(`/product/${product.id}`)}
     >
       <div className="flex justify-center mb-6 h-28 items-center">
