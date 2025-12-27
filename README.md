@@ -42,3 +42,4 @@ npm run dev
 4️⃣ Open in browser
 http://localhost:5173
 
+deployed link -> https://intern-nectar-93cr.vercel.app/
